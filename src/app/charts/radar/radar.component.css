@@ -1,0 +1,53 @@
+#customTooltip {
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  width: 15rem;
+  max-width: 20rem;
+  z-index: 10;
+  transition: opacity 0.2s ease;
+}
+
+:host::ng-deep #customTooltip .title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+:host::ng-deep #customTooltip .comment {
+  font-style: italic;
+  color: #555;
+  margin-top: 8px;
+}
+
+:host::ng-deep #customTooltip .low-score {
+  background-color: #FFECEB;
+  padding: 8px 12px;
+  color: #D1293D;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+:host::ng-deep #customTooltip .medium-score {
+  background-color: #FFF9E6;
+  padding: 8px 12px;
+  color: #AA5B00;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center !important;
+}
+
+:host::ng-deep #customTooltip .high-score {
+  background-color: #DCFFF1;
+  padding: 8px 12px;
+  color: #38A06C;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}

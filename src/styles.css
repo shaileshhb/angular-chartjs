@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --grey: #44546F;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.text-grey {
+  color: var(--grey);
+}

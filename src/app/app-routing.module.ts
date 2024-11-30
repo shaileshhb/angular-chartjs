@@ -7,7 +7,10 @@ const routes: Routes = [
   },
   {
     path: 'charts/radar', loadComponent: () => import("./charts/radar/radar.component").then(r => r.RadarComponent)
-  }
+  },
+  {
+    path: '', redirectTo: 'charts', pathMatch: 'full'
+  },
 ];
 
 @NgModule({
